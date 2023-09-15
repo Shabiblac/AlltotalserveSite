@@ -110,9 +110,51 @@
 }
 
 .hero-container a{
-  border: 1px solid gray;
+  border: none;
   background-color: whitesmoke;
   color: gray;
   padding: 15px;
   font-size: 30px;
+}
+
+#details {
+  background-color: white;
+  text-align: center;
+  margin-top: 5em;
+}
+
+.main-grid {
+  color: #fff;
+  margin: 20px;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.main-card {
+  display: flex;
+  background-color: whitesmoke;
+  align-items: center;
+  margin-top: 2em;
+  margin-bottom: 2px;
+  padding: 10px;
+  border-radius: 15px;
+  transition: 200ms ease-in-out;
+}
+
+.main-card:hover {
+  transform: scale(1.1);
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 17px;
+  color: black;
+}
+
+.card-details {
+  color: black;
+  width: 50%;
+  font-weight: 700;
+  font-size: 12px;
+  margin: 5px;
 }
