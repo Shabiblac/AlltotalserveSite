@@ -44,14 +44,14 @@
     
       .desktop-nav .desktop-menu {
         margin-top: 40px;
-        font-weight: 400;
-        font-size: 20px;
+        font-weight: 500;
+        font-size: 25px;
         color: #191919;
       }
       .desktop-menu a {
         padding: 2px;
         margin-right: 20px;
-        color: whitesmoke;
+        color: black;
         transition: .3s all ease-in-out;
       }
     
@@ -60,6 +60,18 @@
         text-decoration: underline;
     }
 
+    .hero-container {
+        margin-top: 20%;
+        padding-left: 90px;
+      }
     
-    
+      .hero-container h1 {
+        font-size: 60px;
+      }
+
+      .hero-container .TitleMark {
+        border: 2px solid whitesmoke;
+        width: 10%;
+        margin-left: 4%;
+      }
 }
