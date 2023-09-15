@@ -99,6 +99,7 @@
   font-size: 30px;
   margin-top: 10px;
   color: #b39065;
+  margin-bottom: 2em;
 }
 
 .hero-container .TitleMark {
@@ -106,4 +107,12 @@
   margin-top: 50px;
   width: 20%;
   margin-left: 45%;
+}
+
+.hero-container a{
+  border: 1px solid gray;
+  background-color: whitesmoke;
+  color: gray;
+  padding: 15px;
+  font-size: 30px;
 }
