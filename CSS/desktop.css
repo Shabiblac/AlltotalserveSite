@@ -128,7 +128,27 @@
   }
 
 
+  /* Why us */
+  .content h1 {
+    padding-left: 10px;
+    font-size: 45px;
+  }
+  
+  .content p {
+    display: none;
+  }
 
+  .content-details {
+    margin-left: 45%;
+  }
+
+  .info {
+    background-color: transparent;
+  }
+  .content-info {
+    color: white;
+    font-size: 30px;
+  }
   
 
 
