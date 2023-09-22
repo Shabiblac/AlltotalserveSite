@@ -149,6 +149,18 @@
     color: white;
     font-size: 30px;
   }
+  /* Reviews */
+  .review-text {
+    font-size: 25px;
+  }
+  .reviewer-name {
+    font-size: 30px;
+  }
+
+  .review-text span {
+    font-size: 45px;
+  }
+  
 
   /* Numbers */
   #numbers {
@@ -158,10 +170,18 @@
 
   .number-lefttxt {
     flex: 1; 
+    margin-top: 120px;
+  }
+
+  .number-lefttxt h1 {
+    display: flex;
+    padding-top: 20px;
+    color: rgb(58, 52, 52);
+    margin-left: 25%;
   }
   .number-righttxt {
+    margin-top: 80px;
     flex: 1;
-    margin-top: 20px;
   }
 
   .txt {

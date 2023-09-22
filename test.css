@@ -1,15 +1,23 @@
-body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-  }
   
   #counter {
     font-size: 48px;
     font-weight: bold;
   }
-  
+
+#review-slider {
+    display: flex;
+    overflow: hidden;
+}
+
+.review-slide {
+    display: inline-block;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.review-slide img {
+    width: 100px; /* Adjust image width as needed */
+    border-radius: 50%; /* for circular images */
+}
+
+

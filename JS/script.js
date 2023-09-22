@@ -49,7 +49,6 @@ function startCounters() {
         updateCount();
     });
 }
-
 // Call startCounters when the window has finished loading
 window.addEventListener('load', startCounters);
   

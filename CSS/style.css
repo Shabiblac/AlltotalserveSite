@@ -212,12 +212,13 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
+  overflow: hidden;
 }
 
 .content h1 {
+  /* text-align: center; */
   color: white;
-  padding-top: 30px;
   padding-left: 10px;
   font-size: 35px;
 }
@@ -248,9 +249,36 @@ body {
   margin-left: 42%;
 }
 
+/* Reviews */
+#review-slider {
+  background-color: white;
+  text-align: center;
+  color: #b39065;
+}
+
+#review-slider h1 {
+  padding-top: 30px;
+  color: black;
+}
+
+.review-slide {
+  padding: 25px;
+}
+
+.review-text span {
+  font-size: 25px;
+}
+
+.reviewer-name {
+  color: darkgray;
+  margin-top: 20px;
+  font-weight: 900;
+}
+
+/* Numbers */
 #numbers {
   border-top: 2px solid white;
-  background-color: white;
+  background-color: whitesmoke;
   text-align: center;
 
 }
@@ -261,8 +289,7 @@ body {
   color: #b39065;
 }
 .number-lefttxt h1 {
-  padding-top: 20px;
-  color: rgb(58, 52, 52);
+  display: none;
 }
 .number-righttxt  {
   color: rgb(58, 52, 52);
