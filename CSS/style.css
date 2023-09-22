@@ -204,24 +204,85 @@ body {
   width: 100%;
 }
 
-  /* Why us */
-  .content h1 {
-    padding-left: 10px;
-    font-size: 45px;
-  }
-  
-  .content p {
-    display: none;
-  }
+/* why us */
+.container {
+  height: 100vh;
+  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+  url(/images/service-img1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+}
 
-  .content-details {
-    margin-left: 45%;
-  }
+.content h1 {
+  color: white;
+  padding-top: 30px;
+  padding-left: 10px;
+  font-size: 35px;
+}
 
-  .info {
-    background-color: transparent;
-  }
-  .content-info {
-    color: white;
-    font-size: 30px;
-  }
+.content p {
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.content-details {
+  text-align: center;
+}
+
+.info {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
+  padding-bottom: 30px;
+  column-gap: 8px;
+  gap: 3em;
+}
+
+.container .TitleMark {
+  border: 2px solid #b39065;
+  width: 15%;
+  margin-left: 42%;
+}
+
+#numbers {
+  border-top: 2px solid white;
+  background-color: white;
+  text-align: center;
+
+}
+
+.number-lefttxt h3 {
+  padding-top: 40px;
+  font-size: 20px;
+  color: #b39065;
+}
+.number-lefttxt h1 {
+  padding-top: 20px;
+  color: rgb(58, 52, 52);
+}
+.number-righttxt  {
+  color: rgb(58, 52, 52);
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-top: 20px;
+}
+
+.txt {
+  color: rgb(58, 52, 52);
+  display: flex;
+  justify-content: space-around;
+  border-top: 1px solid  #b39065;
+  border-bottom: 1px solid  #b39065;
+}
+
+.txt h6 {
+  font-size: 15px;
+}
+
+.txt h4 {
+  font-size: 30px;
+}

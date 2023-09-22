@@ -1,6 +1,6 @@
 window.addEventListener('load', () => {
     const counterElement = document.getElementById('counter');
-    const targetNumber = 100; // The number to count up to
+    const targetNumber = 1000; // The number to count up to
   
     let count = 0;
   
