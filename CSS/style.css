@@ -204,3 +204,45 @@ body {
   width: 100%;
 }
 
+.container {
+  height: 100vh;
+  background-image:  linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+  url(/images/service-img1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.content h1 {
+  color: white;
+  padding-top: 50px;
+  padding-left: 10px;
+  font-size: 35px;
+}
+
+.content p {
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+}
+
+.content-details {
+  text-align: center;
+}
+
+.info {
+  background-color: whitesmoke;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
+  padding-bottom: 50px;
+  column-gap: 8px;
+  gap: 3em;
+}
+
+.container .TitleMark {
+  border: 2px solid #b39065;
+  width: 15%;
+  margin-left: 42%;
+}
